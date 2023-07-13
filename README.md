@@ -1,5 +1,11 @@
 # activities tracker
 
+## Description
+```
+projeto desenvolvido para introducao do framework vue.js com typescript
+```
+
+
 ## Project setup
 ```
 npm install
