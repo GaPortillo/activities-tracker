@@ -1,11 +1,10 @@
 <template>
     <section class="is-flex is-align-items-center is-justify-content-space-between">
       <Cronometro :tempoEmSegundos="tempoEmSegundos"/>
-      <Button @clicado="iniciar" icone="fas fa-play" texto="play" :desabilitado="cronometroRodando" />
-      <Button @clicado="finalizar" icone="fas fa-stop" texto="stop" :desabilitado="!cronometroRodando" />
+      <Button @clicado="iniciar" icone="fas fa-play" texto="play" :desabilitado="cronometroRodando"/>
+      <Button @clicado="finalizar" icone="fas fa-stop" texto="stop" :desabilitado="!cronometroRodando"/>
     </section>
   </template>
-  
   <script lang="ts">
   import { defineComponent } from "vue";
   import Cronometro from "./Cronometro.vue";
