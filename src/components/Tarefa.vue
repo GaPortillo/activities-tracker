@@ -23,6 +23,6 @@ export default defineComponent({
 
 <style scoped>
 .box {
-    background: #FAF0CA;
+    background: #0000;
 }
 </style>
