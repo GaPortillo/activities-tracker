@@ -21,6 +21,7 @@ import { defineComponent } from "vue";
 import BarraLateral from "./components/BarraLateral.vue";
 import Formulario from "./components/Formulario.vue";
 import Tarefa from "./components/Tarefa.vue";
+
 export default defineComponent({
   name: "App",
   components: {
@@ -28,6 +29,9 @@ export default defineComponent({
     Formulario,
     Tarefa
 
+  },
+  data () {
+    tarefas: []
   },
 });
 </script>
