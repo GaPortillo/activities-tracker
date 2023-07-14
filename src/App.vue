@@ -21,7 +21,7 @@ import { defineComponent } from "vue";
 import BarraLateral from "./components/BarraLateral.vue";
 import Formulario from "./components/Formulario.vue";
 import Tarefa from "./components/Tarefa.vue";
-
+import ITarefa from "./interfaces/ITarefa"
 
 export default defineComponent({
   name: "App",
@@ -32,7 +32,7 @@ export default defineComponent({
 
   },
   data () {
-    tarefas: [];
+    tarefas: [] as ITarefa [];
   },
 });
 </script>
